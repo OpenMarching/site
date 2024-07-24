@@ -22,7 +22,7 @@
       class="absolute flex flex-col group-hover:top-2 -top-96 transition-all bg-base-300 w-96 p-2 rounded-2xl gap-2">
       <a href="/" class="btn font-montserrat font-normal text-lg">Home</a>
       <a href="/dotflow" class="btn font-montserrat font-normal text-lg">DotFlow</a>
-      <a href="/dotflow" class="btn font-montserrat font-normal text-lg">Tabulation</a>
+      <!-- <a href="/dotflow" class="btn font-montserrat font-normal text-lg">Tabulation</a> -->
       <a href="/about" class="btn font-montserrat font-normal text-lg">About</a>
     </div>
   </div>
