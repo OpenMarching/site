@@ -46,4 +46,11 @@
       </li>
     </ul>
   </div>
+  <p class="font-montserrat font-medium">
+    Check it out on <a
+      href="https://github.com/OpenMarching/DotFlow/"
+      target="_blank"
+      class="link link-primary font-medium">GitHub</a
+    >.
+  </p>
 </div>
