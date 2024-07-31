@@ -10,11 +10,13 @@
   <p class="text-center">Powered By Godot. Free Forever.</p>
   <div class="flex flex-row gap-4">
     <a href="/dotflow" class="btn">Learn More</a>
-    <a
-      href="https://github.com/OpenMarching/DotFlow"
-      target="_blank"
-      class="btn">
-      <Icon icon="lucide:github" width="24" height="24" />
-    </a>
+    <div class="tooltip tooltip-primary" data-tip="GitHub">
+      <a
+        href="https://github.com/OpenMarching/DotFlow"
+        target="_blank"
+        class="btn">
+        <Icon icon="lucide:github" width="24" height="24" />
+      </a>
+    </div>
   </div>
 </div>
