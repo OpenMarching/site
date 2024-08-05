@@ -7,7 +7,7 @@
   class="flex flex-col w-full items-center justify-center bg-base-100 group relative">
   <div class="bg-base-100 h-4 w-96 absolute top-0 z-20"></div>
   <div
-    class="p-4 bg-base-300 mt-4 rounded-2xl z-30 flex flex-row items-start relative gap-2">
+    class="p-4 bg-base-300 mt-4 rounded-2xl z-30 flex flex-row items-start relative gap-2 w-96">
     <Logo size={48} />
     <h1 class="text-4xl font-montserrat font-medium w-full text-center">
       OpenMarching
