@@ -1,30 +1,31 @@
-<script>
+<script lang="ts">
+  import tilt from "$lib/tilt";
   import Icon from "@iconify/svelte";
   import Logo from "$lib/components/Logo.svelte";
 </script>
 
 <div
-  class="flex flex-col w-auto h-full items-center justify-center gap-0 max-w-96 m-auto">
-  <div class="flex flex-col p-4 card bg-base-300 gap-4 relative w-96">
-    <div class="flex flex-row justify-around items-end gap-8">
-      <Logo size={128} />
-      <div class="flex flex-col h-full items-end justify-between">
-        <h1 class="text-4xl font-montserrat font-medium w-full">DotFlow</h1>
-        <ul class="list-disc list-inside">
-          <li class="font-montserrat font-medium">Open Source</li>
-          <li class="font-montserrat font-medium">Powered By Godot</li>
-          <li class="font-montserrat font-medium">Free Forever</li>
-        </ul>
-      </div>
-    </div>
+  class="flex flex-col w-auto items-center gap-0 max-w-96 mx-auto overflow-y-auto">
+  <div
+    class="flex flex-col p-4 gap-4 relative w-full items-center justify-center">
     <div
-      class="absolute bg-info p-2 rounded-full -top-4 -right-4 tooltip tooltip-info tooltip-left"
+      class="absolute bg-info p-1 rounded-full top-2 right-1 tooltip tooltip-info tooltip-left"
       data-tip="Early Development Status">
       <Icon icon="lucide:info" width="24" height="24" color="black" />
     </div>
-  </div>
-  <div class="flex flex-col p-4 gap-4 relative w-full">
+    <div
+      class="flex w-64 h-64 touch-manipulation"
+      use:tilt={{ scale: 1.1, reverse: true }}>
+      <Logo size={256} logo="dotflow" />
+    </div>
+    <div class="flex flex-row w-full items-end">
+      <h1 class="text-4xl font-montserrat font-medium w-full">DotFlow</h1>
+      <a href="https://github.com/openmarching/dotflow" target="_blank" class="btn">
+        <Icon icon="lucide:github" width="24" height="24" color="white" />
+      </a>
+    </div>
     <ul class="list-disc list-outside pl-4">
+      <li class="font-montserrat font-medium">Free Forever</li>
       <li class="font-montserrat font-medium">Full 3D Editor</li>
       <li class="font-montserrat font-medium">Realtime Playback</li>
       <li class="font-montserrat font-medium">Exporting</li>
@@ -44,13 +45,8 @@
       <li class="font-montserrat font-medium ml-4">
         Grid To Human Landmark Translation
       </li>
+      <li class="font-montserrat font-medium">Built With Godot</li>
+      <li class="font-montserrat font-medium">Open Source - MIT License</li>
     </ul>
   </div>
-  <p class="font-montserrat font-medium">
-    Check it out on <a
-      href="https://github.com/OpenMarching/DotFlow/"
-      target="_blank"
-      class="link link-primary font-medium">GitHub</a
-    >.
-  </p>
 </div>
