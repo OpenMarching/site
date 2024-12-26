@@ -20,32 +20,16 @@
     </div>
     <div class="flex flex-row w-full items-end">
       <h1 class="text-4xl font-montserrat font-medium w-full">DotFlow</h1>
-      <a href="https://github.com/openmarching/dotflow" target="_blank" class="btn">
+      <!-- <a href="https://github.com/openmarching/dotflow" target="_blank" class="btn">
         <Icon icon="lucide:github" width="24" height="24" color="white" />
-      </a>
+      </a> -->
     </div>
     <ul class="list-disc list-outside pl-4">
-      <li class="font-montserrat font-medium">Free Forever</li>
-      <li class="font-montserrat font-medium">Full 3D Editor</li>
-      <li class="font-montserrat font-medium">Realtime Playback</li>
-      <li class="font-montserrat font-medium">Exporting</li>
-      <li class="font-montserrat font-medium ml-4">Show Video with Audio</li>
-      <li class="font-montserrat font-medium ml-4">Group Form</li>
-      <li class="font-montserrat font-medium ml-4">
-        Individual Performer Sheets
-      </li>
       <li class="font-montserrat font-medium">
-        Fully Extendable With Custom Lua API
+        3D and 2D Editing Environments
       </li>
-      <li class="font-montserrat font-medium ml-4">Extended Editor Plugins</li>
-      <li class="font-montserrat font-medium ml-4">2D & 3D Environments</li>
-      <li class="font-montserrat font-medium ml-4">
-        Editor Grid and Landmarks
-      </li>
-      <li class="font-montserrat font-medium ml-4">
-        Grid To Human Landmark Translation
-      </li>
-      <li class="font-montserrat font-medium">Built With Godot</li>
+      <li class="font-montserrat font-medium">Web Based</li>
+      <li class="font-montserrat font-medium">Modular and Extendable</li>
       <li class="font-montserrat font-medium">Open Source - MIT License</li>
     </ul>
   </div>

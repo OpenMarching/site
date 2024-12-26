@@ -17,7 +17,7 @@
         <h1 class="text-4xl font-montserrat font-medium w-full">DotFlow</h1>
         <ul class="list-disc list-inside">
           <li class="font-montserrat font-medium text-sm">Open Source</li>
-          <li class="font-montserrat font-medium text-sm">Powered By Godot</li>
+          <li class="font-montserrat font-medium text-sm">Built for the Web</li>
           <li class="font-montserrat font-medium text-sm">Free Forever</li>
         </ul>
       </div>
